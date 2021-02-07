@@ -1,0 +1,136 @@
+.wf-mplus1p { font-family: "Mplus 1p";
+}
+html*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: "ヒラギノ角ゴ","sans-serif";
+	font-size: 16px;
+}
+
+/* ヘッダー */
+header{
+	background: #583822 ;
+    color: rgba(255,255,255,0);
+    -webkit-text-stroke: 2px rgba(255,255,255,0.8);
+    text-align: right;
+    font-size: 50px;
+    font-family: "Rage","Viner Hand ITC","Vladimir Script","Bradley Hand ITC","Lucida Handwriting","Freestyle Script","French Script MT","Brush Script MT","Edwardian Script ITC";
+}
+header h1{
+    padding: 0 50px 0 0;
+}
+
+.header-container{
+    width: 100%;
+    height: 300px;
+    padding-top: calc(300 / 1000 * 100%);
+    background: url(img.jpg);
+    background-image: url(img1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ナビゲーション */
+nav{
+    margin: 0;
+    background: linear-gradient(#241a08, #583822);
+    border-bottom: 5px solid #241a08;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style : none;
+    margin: 0;
+    padding: 20px 10px 0 10px;
+}
+nav li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+nav li a:hover{
+    background: #37a29b;
+}
+.nav-container{
+	padding: 0 20px 0 20px;
+}
+
+/* メインコンテンツレイアウト部分 */
+main li{
+    font-size: 2em;
+}
+.main-container{
+	padding: 10px 64px 64px 64px;
+	background: #dcd3b2
+}
+
+/* フッター */
+footer{}
+.footer-container{
+    padding:1px;
+    background: linear-gradient(#241a08, #583822);
+}
+
+/*フェードイン*/
+body{
+animation: fadeIn 2.5s ease 0s 1 normal;
+-webkit-animation: fadeIn 2.5s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+/*1文字目だけ大きく*/
+.lead::first-letter{
+    float:left;
+    padding: 0.05em 0.05em 0 0;
+    line-height: 0.95em;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+/*段落ごとに字下げ*/
+.contents{
+    text-indent: 1em;
+}
+
+/*点下線*/
+.under{
+    border-bottom: dotted 3px orange;
+}
+
+/*下線を徐々に透過させる*/
+.transparent-bothends {
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+    color: #583822 ;
+    font-size: 18px;
+    text-align: center;
+}
+.transparent-bothends::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: -webkit-linear-gradient(left, transparent, #583822 25%, #583822 75%, transparent);
+    background-image: linear-gradient(to right, transparent, #583822 25%, #583822 75%, transparent);
+    background-position: center;
+    background-repeat: no-repeat;
+}
