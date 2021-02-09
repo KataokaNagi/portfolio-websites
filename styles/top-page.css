@@ -3,9 +3,9 @@
 * @brief          Top page style
 * @author         Kataoka Nagi - calm1836[at]gmail.com
 * @date           2021-02-09 18:12:14
-* $Version:       v0.2.0
-* @par            **History**
-*                 Add header comment
+* $Version:       v0.2.1
+* @par            --History--
+*                 Fix warning: remove empty footer element
 * Copyright (c) 2021 Kataoka Nagi
 */
 
@@ -85,9 +85,7 @@ main li {
 }
 
 /* フッター */
-footer {
-}
-.footer-container {
+footer.footer-container {
   padding: 1px;
   background: linear-gradient(#241a08, #583822);
 }
