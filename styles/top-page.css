@@ -121,6 +121,20 @@ body {
   font-weight: bold;
 }
 
+/* left img & right txt */
+/* @see 「htmlやCSSで画像の横に文字を置く方法」https://csshtml.work/text-img/ */
+/* .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex > p {
+  width: 49%;
+} */
+
+.picture-margin {
+  margin: 10px;
+}
+
 /*段落ごとに字下げ*/
 .contents {
   text-indent: 1em;
