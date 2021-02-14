@@ -40,7 +40,7 @@ nav li a {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 14px;
-  color: #ffffff;
+  color: #dddddd;
 }
 nav li a:hover {
   background: #37a29b; /*水色点灯*/
@@ -54,8 +54,9 @@ main li {
   font-size: 1.5em;
 }
 .main-container {
-  padding: 10px 64px 64px 64px;
-  background: #dcd3b2;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative; /* Fix for absolute positioning */
 }
 main h1 {
   margin: 0;

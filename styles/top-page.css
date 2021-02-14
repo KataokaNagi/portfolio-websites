@@ -25,7 +25,7 @@ body {
 header {
   background: #583822;
   color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.8);
+  -webkit-text-stroke: 2px rgba(240, 240, 240, 0.8);
   text-align: right;
   font-size: 50px;
   font-family: "Rage", "Viner Hand ITC", "Vladimir Script", "Bradley Hand ITC",
@@ -66,7 +66,7 @@ nav li a {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 14px;
-  color: #ffffff;
+  color: #dddddd;
 }
 nav li a:hover {
   background: #37a29b;
@@ -80,14 +80,28 @@ main li {
   font-size: 2em;
 }
 .main-container {
-  padding: 10px 64px 64px 64px;
-  background: #dcd3b2;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative; /* Fix for absolute positioning */
+}
+
+/* Subsection */
+section.subsection {
+  margin-top: 128px;
+}
+
+/* Subsubsection */
+section.subsubsection {
+  margin-top: 64px;
 }
 
 /* フッター */
-footer.footer-container {
-  padding: 1px;
+footer {
+}
+.footer-container {
+  padding: 16px;
   background: linear-gradient(#241a08, #583822);
+  color: #dddddd;
 }
 
 /*フェードイン*/
