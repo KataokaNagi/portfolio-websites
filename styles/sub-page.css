@@ -59,28 +59,34 @@ main li {
   position: relative; /* Fix for absolute positioning */
 }
 main h1 {
-  margin: 0;
+  margin: 48;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 1px rgba(88, 56, 34, 0.8);
-  font-size: 40px;
+  font-size: 64px;
   font-family: "Rage", "Viner Hand ITC", "Vladimir Script", "Bradley Hand ITC",
     "Lucida Handwriting", "Freestyle Script", "French Script MT",
     "Brush Script MT", "Edwardian Script ITC";
+  color: rgba(88, 56, 34, 0);
+  text-decoration: none;
 }
-main h1 :hover {
-  background: rgba(88, 56, 34, 0.2); /*点灯*/
+
+/* Subsection */
+section.subsection {
+  margin-top: 128px;
 }
-.h1-index {
-  font-size: 40px;
-}
-.h1-index-big {
-  font-size: 80px;
+
+/* Subsubsection */
+section.subsubsection {
+  margin-top: 64px;
 }
 
 /* フッター */
-footer.footer-container {
-  padding: 1px;
+footer {
+}
+.footer-container {
+  padding: 16px;
   background: linear-gradient(#241a08, #583822);
+  color: #dddddd;
 }
 
 /*フェードイン*/
