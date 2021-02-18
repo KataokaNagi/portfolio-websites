@@ -9,15 +9,14 @@
 * Copyright (c) 2021 Kataoka Nagi
 */
 
-.wf-mplus1p {
-  font-family: "Mplus 1p";
-}
 html* {
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  font-family: "ヒラギノ角ゴ", "sans-serif";
+  /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 16px;
 }
 
@@ -28,9 +27,12 @@ header {
   -webkit-text-stroke: 2px rgba(240, 240, 240, 0.8);
   text-align: right;
   font-size: 50px;
-  font-family: "Rage", "Viner Hand ITC", "Vladimir Script", "Bradley Hand ITC",
+  /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  /* font-family: "Rage", "Viner Hand ITC", "Vladimir Script", "Bradley Hand ITC",
     "Lucida Handwriting", "Freestyle Script", "French Script MT",
-    "Brush Script MT", "Edwardian Script ITC";
+    "Brush Script MT", "Edwardian Script ITC"; */
 }
 header h1 {
   padding: 0 50px 0 0;
