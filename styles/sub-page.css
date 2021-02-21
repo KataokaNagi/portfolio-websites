@@ -73,6 +73,11 @@ main h1 {
   text-decoration: none;
 }
 
+h3 {
+  padding: 0.5em; /*文字周りの余白*/
+  border-left: solid 8px #583822; /*左線（実線 太さ 色）*/
+}
+
 /* Subsection */
 section.subsection {
   margin-top: 128px;
