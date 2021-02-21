@@ -140,7 +140,7 @@ main li {
 .main-container {
   max-width: 1000px;
   margin: auto;
-  padding: 0 6em;
+  padding: 0 3em;
   position: relative; /* Fix for absolute positioning */
 }
 
