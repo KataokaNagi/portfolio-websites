@@ -38,6 +38,57 @@ header h1 {
   padding: 0 50px 0 0;
 }
 
+/* index */
+/* @see 「コピペで使えるリストデザイン34選：CSSで箇条書きをおしゃれに」https://saruwakakun.com/html-css/reference/ul-ol-li-design */
+ul.idx {
+  border: solid 1.5px #583822;
+  padding: 2em;
+  position: relative;
+  margin-top: 1.5em;
+  margin-left: 4em;
+  max-width: 150px;
+  align-self: center;
+}
+ul.idx li {
+  line-height: 1;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  border-bottom: dashed 1.5px silver;
+  list-style-type: none !important;
+  font-size: 1em;
+  color: #583822;
+}
+ul.idx li:last-of-type {
+  border-bottom: none;
+}
+ul.idx li:before {
+  /*リスト内のアイコン*/
+  /* font-family: "Font Awesome 5 Free"; */
+  content: ">"; /*アイコン種類*/
+  position: absolute;
+  left: 1.5em; /*左端からのアイコンまで*/
+  color: #583822; /*アイコン色*/
+}
+ul.idx li:after {
+  /*タイトルタブ*/
+  background: #583822;
+  color: #dddddd;
+  font-weight: bold;
+  position: absolute;
+  left: -2px;
+  bottom: 100%;
+  padding: 2px 8px;
+  content: "目次"; /*タブの文字*/
+  letter-spacing: 0.05em; /*字間*/
+}
+a.idx {
+  color: #583822;
+  text-decoration: none;
+}
+a.idx:hover {
+  color: #8b4513;
+  text-decoration: none;
+}
+
 h3 {
   padding: 0.5em; /*文字周りの余白*/
   border-left: solid 8px #583822; /*左線（実線 太さ 色）*/
