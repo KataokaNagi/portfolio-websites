@@ -88,6 +88,11 @@ section.subsubsection {
   margin-top: 64px;
 }
 
+/* youtube */
+.video {
+  max-width: 1000px;
+}
+
 /* フッター */
 footer {
 }
