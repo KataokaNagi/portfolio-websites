@@ -15,6 +15,7 @@ html* {
 }
 body {
   margin: 0;
+  padding: 0;
   /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
@@ -29,6 +30,12 @@ nav {
   margin: 0;
   background: linear-gradient(#241a08, #583822);
   border-bottom: 5px solid #241a08;
+
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 100;
 }
 nav ul {
   display: flex;
@@ -62,7 +69,7 @@ main li {
   position: relative; /* Fix for absolute positioning */
 }
 main h1 {
-  margin: 48;
+  margin: 0;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 1px rgba(88, 56, 34, 0.8);
   font-size: 48px;
