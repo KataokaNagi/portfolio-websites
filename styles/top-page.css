@@ -18,6 +18,9 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 16px;
+  color: #8b4513;
+  font-size: 1em;
+  background: #dcd3b2;
 }
 
 /* ヘッダー */
