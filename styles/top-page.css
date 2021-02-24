@@ -17,7 +17,6 @@ body {
   /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
-  font-size: 16px;
   color: #8b4513;
   font-size: 1em;
   background: #dcd3b2;
@@ -29,7 +28,7 @@ header {
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 2px rgba(240, 240, 240, 0.8);
   text-align: right;
-  font-size: 50px;
+  font-size: 4em;
   /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
@@ -127,7 +126,7 @@ nav li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9em;
   color: #dddddd;
 }
 nav li a:hover {

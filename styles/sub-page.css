@@ -19,7 +19,6 @@ body {
   /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
-  font-size: 16px;
   color: #8b4513;
   font-size: 1em;
   background: #dcd3b2;
@@ -31,9 +30,10 @@ nav {
   background: linear-gradient(#241a08, #583822);
   border-bottom: 5px solid #241a08;
 
+  /* @see ヘッダー・ナビゲーションを固定表示させるアイデア5つ https://webdesignday.jp/inspiration/technique/css/4166/ */
   display: flex;
   position: fixed;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   z-index: 100;
 }
@@ -48,7 +48,7 @@ nav li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9em;
   color: #dddddd;
 }
 nav li a:hover {
@@ -60,7 +60,7 @@ nav li a:hover {
 
 /* メインコンテンツレイアウト部分 */
 main li {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .main-container {
   max-width: 1000px;
@@ -72,7 +72,7 @@ main h1 {
   margin: 0;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 1px rgba(88, 56, 34, 0.8);
-  font-size: 48px;
+  font-size: 3.5em;
   /* @see 【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例 https://willcloud.jp/knowhow/font-family/#i-5 */
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
