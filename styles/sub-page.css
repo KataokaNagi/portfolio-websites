@@ -82,6 +82,31 @@ h3 {
   font-size: 1.4em;
 }
 
+/* circle head */
+/* @see  CSSだけで作れるトレンド見出しデザイン20選｜2019年版 https://www.sejuku.net/blog/56721 */
+h4 {
+  margin: 0; /* デフォルトCSS打ち消し */
+  font-size: 1.2em; /* 文字サイズ指定 */
+  position: relative; /* 位置調整 */
+  font-weight: normal; /* 文字の太さ調整 */
+  display: inline-block; /* インラインブロックにする */
+  padding-top: 40px; /* 余白指定 */
+  padding-left: 40px; /* 余白指定 */
+  padding-bottom: 20px; /* 余白指定 */
+}
+h4:before {
+  content: ""; /* 空白の要素を作る */
+  background-color: #e8debb; /* 背景色指定 */
+  display: block; /* ブロック要素にする */
+  position: absolute; /* 位置調整 */
+  left: 20px; /* 位置調整 */
+  height: 48px; /* 高さ指定 */
+  width: 48px; /* 幅指定 */
+  border-radius: 50%; /* 丸くする */
+  top: 20px; /* 位置調整 */
+  z-index: -1; /* 重なり調整 */
+}
+
 /* Subsection */
 section.subsection {
   margin-top: 128px;
