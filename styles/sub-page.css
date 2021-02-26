@@ -211,16 +211,6 @@ body {
   }
 }
 
-/*テーブル*/
-table {
-  border-collapse: collapse;
-}
-td,
-tr {
-  padding: 8px 20px;
-  border: 1px solid #b7b7b7;
-}
-
 /*1文字目だけ大きく*/
 .lead::first-letter {
   float: left;
