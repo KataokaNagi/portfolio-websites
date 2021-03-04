@@ -157,6 +157,20 @@ section.subsubsection {
   margin-top: 64px;
 }
 
+/* about me links */
+/* @see 中央寄せで文字列を左寄せにする方法 https://blog.raizzenet.com/how-to-make-the-text-left-justified-by-centering/ */
+.centorleft {
+  text-align: center;
+}
+.centorleft ul {
+  list-style: none;
+  display: inline-block;
+}
+.centorleft ul li {
+  text-align: left;
+  font-size: 1em;
+}
+
 /* youtube */
 .video {
   max-width: 1000px;
